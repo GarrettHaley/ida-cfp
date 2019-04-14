@@ -93,7 +93,7 @@ ls -l out/
 bundle.json
 ```
 
-Then load and disassemble (using IDA Free) the corresponding compiled and obfuscated version of that same `csource_test1.c` file. You can find the compiled binaries under the `test/executables/` directory. To run the IDC script look under `File->Script File...` in the upper left hand corner of the IDA GUI.
+Then load and disassemble (using IDA Free) the corresponding compiled and obfuscated version of that same `csource_test1.c` file. You can find the compiled binaries under the `test/obfuscated_executables/` directory. To run the IDC script look under `File->Script File...` in the upper left hand corner of the IDA GUI.
 
 ## Deployment and Use
 To utilize the full functionality of IDA-CFP pull down a copy to your working directory, desktop, or elsewhere. Using some of the examples provided earlier in the guide or by running `python run.py -h` (make sure `python` runs Python 3+) to see help and usage instructions, parse some of your own C99 files.
